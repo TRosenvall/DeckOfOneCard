@@ -8,6 +8,10 @@
 
 import Foundation
 
+struct TopLevelJSON: Decodable {
+    let cards: [Card]
+}
+
 class Card: Decodable {
     let suit: String
     let value: String
@@ -20,6 +24,4 @@ class Card: Decodable {
         self.code = code
         self.image = image
     }
-    
-    
 }

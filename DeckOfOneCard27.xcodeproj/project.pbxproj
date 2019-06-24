@@ -14,6 +14,7 @@
 		8508DF7222C131CD00977E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8508DF7122C131CD00977E7F /* Assets.xcassets */; };
 		8508DF7522C131CD00977E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8508DF7322C131CD00977E7F /* LaunchScreen.storyboard */; };
 		85CA546922C13A050058A8CC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA546822C13A050058A8CC /* Card.swift */; };
+		85CA546B22C140D90058A8CC /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA546A22C140D90058A8CC /* CardController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8508DF7422C131CD00977E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8508DF7622C131CD00977E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85CA546822C13A050058A8CC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Card.swift; path = ../Controllers/ViewControllers/Card.swift; sourceTree = "<group>"; };
+		85CA546A22C140D90058A8CC /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardController.swift; path = ../CardController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		85CA546722C1354A0058A8CC /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				85CA546A22C140D90058A8CC /* CardController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CA546B22C140D90058A8CC /* CardController.swift in Sources */,
 				8508DF7022C131CC00977E7F /* DeckOfOneCard27.xcdatamodeld in Sources */,
 				8508DF6A22C131CC00977E7F /* ViewController.swift in Sources */,
 				8508DF6822C131CC00977E7F /* AppDelegate.swift in Sources */,
